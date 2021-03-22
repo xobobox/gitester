@@ -1,0 +1,20 @@
+gamepage.html
+
+<canvas id="gc" width="640" height="480"></canvas>
+<script>
+window.onload=function() {
+	c=document.getElementbyId('gc');
+	cc=c.getContext('2d');
+	setInterval(update,1000/30);
+}
+function update() {
+	cc.fillStyle='pink';
+	cc.fillRect(0,0,c.width,c.height);
+	cc.fillStyle='grey';
+	<!figure out how to edit colors>
+
+	cc.fillRect(0,p1y,pt,ph);
+	cc.fillRect(0,p2y,pt,ph);
+
+}
+</script>
